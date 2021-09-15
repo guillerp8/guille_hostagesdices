@@ -122,5 +122,3 @@ _RegisterNetEvent("onResourceStop", function(res)
         end
     end
 end)
-
-GiveWeaponToPed(PlayerPedId(), GetHashKey("weapon_combatpistol"), 200, false, true)
